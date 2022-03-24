@@ -1,0 +1,12 @@
+* To print tweets in console twarc2 text nombre.json
+
+# Colombia Politicians
+twarc2 timelines --use-search --start-time "2021-03-28" --end-time "2021-05-28" colombia_politicians_usernames.txt colombia_politicians_tweets.json
+
+# Colombia celebrities/influencers
+twarc2 timelines --use-search --start-time "2021-03-28" --end-time "2021-05-28" colombia_celebrities_usernames.txt colombia_celebrities_tweets.json
+
+# Colombia celebrities/influencers (6 months after)
+twarc2 timelines --use-search --start-time "2021-10-28" --end-time "2021-11-28" colombia_celebrities_usernames.txt colombia_celebrities_tweets_6months.json
+
+
